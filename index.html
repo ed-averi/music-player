@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    
+    <title>Audio Player</title>
+  </head>
+  <body>
+      <container id="video">
+          <video src="https://thenewcode.com/assets/videos/ocean-diver.mp4"
+          autoplay="autoplay"
+          muted="muted"
+          loop="loop"
+          ></video>
+        </container>
+    <h1>Audio Player</h1>
+    <h3>by Gerson Vasquez</h3>
+      <!--In the music container class, we will add everyghint but the h1-->
+    <div class="music-container play" id="music-container">
+      <div class="music-info">
+      <h4 id="title">You</h4>
+      <div class="progress-container" id="progress-container">
+        <div class="progress" id="progress"></div>
+      </div>
+    </div>
+    <!--Music belongs to its rightful owner, used only for educational purposes-->
+    <audio src="asset/You.mp3" id="audio"></audio>
+    <!--Music cover-->
+    <div class="img-container">
+      <img src="/imgs/ncslogo.jpg" alt="music-cover" id="cover">
+    </div>
+    <!--Creating the buttons to play the audio with a navigation class-->
+    <div class="navigation">
+      <button id="prev" class="action-btn">
+        <i class="fas fa-backward"></i>
+      </button>
+      <button id="play" class="action-btn action-btn-big">
+        <i class="fas fa-play"></i>
+      </button>
+      <button id="next" class="action-btn">
+        <i class="fas fa-forward"></i>
+
+        <script src="sauce.js"></script>  
+      </button>
+    </div>
+  </div>
+</div>
+</body>
+
+<!--
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Track: Sub Urban - Cradles [NCS Release]
+Music provided by NoCopyrightSounds.
+Watch: youtu.be/Hn4sfC2PbhI
+Free Download / Stream: ncs.io/CradlesYO
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+-->
+</html>
